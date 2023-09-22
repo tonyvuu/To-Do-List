@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Todos.css';
 import todoImage from './cartoonpencil.png';
 
+
 const Todos = () => {
   const [value, setValue] = useState('');
   const [todo, setTodo] = useState([]);
@@ -35,6 +36,7 @@ const Todos = () => {
   };
 
   return (
+    
     <div className='title'>
       <h1>
         TO DO LIST <img src={todoImage} alt='pencil' className='todo-icon' />
