@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+.todolist-icon {
+  height: 50px;
+  width: 50px;
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.header-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 20px;
+  color: yellow;
+  font-family: 'Luckiest Guy', cursive;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);

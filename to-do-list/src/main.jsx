@@ -8,7 +8,7 @@ import Todos from './Todos.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <App /> */}
+    <App />
     <Todos />
   </React.StrictMode>,
 )
