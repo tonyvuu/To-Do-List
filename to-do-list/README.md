@@ -19,3 +19,5 @@ Technologies Used
 * CSS: Used for styling the app and enhancing the visual design.
 
 * JSX: Used for creating the structure and layout of the app.
+
+![Alt Text](/src/assets/Screenshot-1.png)
