@@ -15,22 +15,23 @@ const Todos = () => {
   };
 
   const handleDelete = (index) => {
-    const newList = [...todo];
-    newList.splice(index, 1);
-    setTodo(newList);
+    const newList = [...todo]
+    newList.splice(index, 1)
+    setTodo(newList)
   };
 
   const handleUpdate = (index, updatedValue) => {
-    const updatedList = [...todo];
-    updatedList[index].text = updatedValue;
-    setTodo(updatedList);
-    setEditIndex(null); 
+    const updatedList = [...todo]
+    updatedList[index].text = updatedValue
+    updatedList[index].color = 'white'
+    setTodo(updatedList)
+    setEditIndex(null)
   };
 
   const handleColorChange = (index) => {
-    const updatedList = [...todo];
-    updatedList[index].color = 'green'; 
-    setTodo(updatedList);
+    const updatedList = [...todo]
+    updatedList[index].color = 'green'
+    setTodo(updatedList)
   };
 
   return (
