@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Todos.css';
-import todoImage from './cartoonpencil.png';
+import todoImage from './assets/cartoonpencil.png';
 
 
 const Todos = () => {
@@ -35,6 +35,11 @@ const Todos = () => {
     setTodo(updatedList)
   };
 
+
+  const handleClearList = () => {
+    setTodo([]); 
+  };
+
   return (
     
     <div className='title'>
@@ -51,6 +56,8 @@ const Todos = () => {
           onChange={(e) => setValue(e.target.value)}
         />
         <button onClick={handleClick}>Add to list</button>
+        <button onClick={handleClearList} style={{ color: 'yellow' }}>Clear list</button>
+
       </div>
       <div className='box-container'>
         <div>
