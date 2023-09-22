@@ -20,4 +20,4 @@ Technologies Used
 
 * JSX: Used for creating the structure and layout of the app.
 
-![Alt Text](/assets/Screenshot-1.png)
+![Alt Text](assets/Screenshot-1.png)
