@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+.delete-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-container button {
+    margin-left: 50px;
+}
+
+.button-container {
+margin-left: 30px;
+text-align: center;
+}
+
+body {
+    background-color: #1a1a1a
+}
+
+.box-container {
+    background-color: white;
+    border-radius: 20px;
+    /* font-family: 'Luckiest Guy', cursive; */
+}
+
+.first-button {
+    margin-left: 300px;
+    height: 50px;
+}
+
+.title {
+    font-family: 'Luckiest Guy', cursive;
+    background-color: blue;
+    word-spacing: 10%;
+    color:#fff;
+    border-radius: 30px;
+}
+.title-box button{
+    margin-left: 200px;
+}
+
+.input-box{
+    margin-left: 33px;
+    margin-bottom: 20px;
+}
+
+.todo-icon {
+    height: 100px;
+    width: 50px;
+}
+  
+.delete-box {
+    margin-right: 20px;
+}
+
+.button-container button{
+    /* background-color: blue; */
+}  
+.delete-box button {
+    /* background-color: blue; */
+}
+
+button:hover {
+    outline: 5px solid blue; 
+  }
+  
