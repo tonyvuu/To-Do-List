@@ -66,6 +66,7 @@ const Todos = () => {
               <div key={index} className='delete-container'>
                 <li>
                   <input  
+                  className='second-input'
                     maxLength={26}
                     type='text'
                     value={editIndex === index ? value : todoItem.text}
